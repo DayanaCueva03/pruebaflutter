@@ -47,7 +47,7 @@ class _Ejercicio02State extends State<Ejercicio02> {
               children: [
                 Text(
                   'Ingrese la velocidad angular (w) en radianes/segundo:',
-                  style: TextStyle(fontSize: 16, color: Colors.white),
+                  style: TextStyle(fontSize: 16, color: const Color.fromARGB(255, 8, 8, 8)),
                 ),
                 SizedBox(height: 20),
                 TextField(
@@ -56,15 +56,15 @@ class _Ejercicio02State extends State<Ejercicio02> {
                   decoration: InputDecoration(
                     labelText: 'Velocidad angular (w) en rad/s',
                     border: OutlineInputBorder(),
-                    labelStyle: TextStyle(color: Colors.white),
+                    labelStyle: TextStyle(color: const Color.fromARGB(255, 7, 7, 7)),
                     enabledBorder: OutlineInputBorder(
-                      borderSide: BorderSide(color: Colors.white),
+                      borderSide: BorderSide(color: const Color.fromARGB(255, 5, 5, 5)),
                     ),
                     focusedBorder: OutlineInputBorder(
                       borderSide: BorderSide(color: Colors.blue),
                     ),
                   ),
-                  style: TextStyle(color: Colors.white),
+                  style: TextStyle(color: const Color.fromARGB(255, 8, 8, 8)),
                 ),
                 SizedBox(height: 20),
                 ElevatedButton(
